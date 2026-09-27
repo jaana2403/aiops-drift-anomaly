@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated artifacts (reproducible via the pipeline scripts)
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+
+# OS / editor
+.DS_Store
